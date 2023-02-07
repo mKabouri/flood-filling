@@ -30,8 +30,8 @@ braces
 
 Compilation
 -----------
-* make: compilation of the whole project
-    - Execution: ./server -m $1 -t $2 -f $3 -a $4 -S $5 ./libplayer1.so ./libplayer2.so 
+* `make` : compilation of the whole project
+    - Execution: `./server -m $1 -t $2 -f $3 -a $4 -S $5 ./libplayer1.so ./libplayer2.so` 
     or libplayer3.so instead of libplayer1.so or libplayer2.so because we have three players.  
         where: 
                - $1: width matrix graph. (obligatory).
@@ -41,8 +41,8 @@ Compilation
                - $5: display mode. values {0, 1}. (optional: 0 as default and 1 for sdl display).
                 
 
-* make install: compilation and generation of a dynamic libraries in install/ directory.
+* `make install` : compilation and generation of a dynamic libraries in install/ directory.
 
-* make test: compilation of tests
+* `make test` : compilation of tests
     - Execution of tests: ./alltests
     
